@@ -54,12 +54,6 @@ export default class Calculator extends Component {
                 default:
                     break;
             }
-            // try {
-            //     console.log(currentOperation);
-            //     values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`);
-            // } catch (e) {
-            //     values[0] = this.state.values[0];
-            // }
             values[1] = 0;
 
             this.setState({ 
